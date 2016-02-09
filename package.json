@@ -1,0 +1,22 @@
+{
+  "name": "routie",
+  "version": "1.0.0",
+  "description": "Routie is a javascript hash routing library.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leventekk/routie.git"
+  },
+  "keywords": [
+    "router"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leventekk/routie/issues"
+  },
+  "homepage": "https://github.com/leventekk/routie#readme"
+}
