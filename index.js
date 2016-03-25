@@ -99,7 +99,7 @@
 
   var addHandler = function(path, fn) {
     var s = path.split(' ');
-    var name = s.length ==- 2 ? s[0] : null;
+    var name = s.length === 2 ? s[0] : null;
 
     path = s.length === 2 ? s[1] : s[0];
 
@@ -119,6 +119,7 @@
       for (var p in path) {
         addHandler(p, path[p]);
       }
+
       routie.reload();
     } else if (typeof fn === 'undefined') {
       routie.navigate(path);
